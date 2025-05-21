@@ -2,6 +2,17 @@
 
 
 
+
+img {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+
+
+
+
+
 .active-link {
   font-weight: bold;
   color: #0d6efd !important; /* Bootstrap primary color */

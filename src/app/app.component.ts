@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { ProductListComponent } from './product-list/product-list.component';
 import { CommonModule } from '@angular/common';
+import { ProductCategoryComponent } from './product-category/product-category.component';
+import { SearchComponent } from './search/search.component';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +12,8 @@ import { CommonModule } from '@angular/common';
     ProductListComponent,
     CommonModule,
     RouterModule,
+    ProductCategoryComponent,
+    SearchComponent,
 
   ],
   templateUrl: './app.component.html',
